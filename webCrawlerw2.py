@@ -9,7 +9,7 @@ def mainSetting():
         print("**2. Merge the files **")
         print("**3. exit            **")
         print("***********************")
-        option=input("Choose one ")
+        option=input("Choose one  ")
 
         if  option == "1":
             date=input("Enter news date: ")
