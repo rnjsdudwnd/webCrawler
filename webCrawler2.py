@@ -2,7 +2,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-r=requests.get("http://joven.design/dig.html")
+r=requests.get("http://joven.design/")
 c=r.content
 
 # print(c) this will be hard to read, so html.parser is required
