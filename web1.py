@@ -10,3 +10,4 @@ for item in all2:
     modifyTitle=title[2:len(title)+1]
     #[2:5] ->2,3,4
     print(modifyTitle)
+    
