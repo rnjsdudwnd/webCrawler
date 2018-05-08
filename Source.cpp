@@ -36,6 +36,7 @@ int main(void)
 		* this check, but this will make the connection less secure.
 		*/
 		curl_easy_setopt(curl, CURLOPT_SSL_VERIFYHOST, 0L);
+		
 #endif
 
 		/* Perform the request, res will get the return code */
